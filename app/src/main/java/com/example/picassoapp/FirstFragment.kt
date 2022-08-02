@@ -8,13 +8,12 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.example.picassoapp.databinding.FragmentFirstBinding
 
-/**
- * A simple [Fragment] subclass as the default destination in the navigation.
- */
 class FirstFragment : Fragment() {
     private var _binding: FragmentFirstBinding? = null
 
     private val binding get() = _binding!!
+
+
 
 
     override fun onCreateView(
